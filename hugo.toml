@@ -61,10 +61,14 @@ style = "github-dark"
 
 # Menu links
 [[menu.main]]
-  name = "文章"
+  name = "技术文章"
   weight = 1
-  url  = "posts/"
+  url  = "技术文章/"
 [[menu.main]]
   name = "联系我"
   weight = 2
-  url = "contact/"
+  url = "联系我/"
+[[menu.main]]
+  name = "随想"
+  weight = 3
+  url = "随想/"
