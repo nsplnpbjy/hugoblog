@@ -228,9 +228,9 @@ menu:
             icon: toggle-left
             newTab: false
 
-        - identifier: Contact
-          name: Contact
-          url: /Contact/
+        - identifier: Noval
+          name: Noval
+          url: /Noval/
           weight: 4
           params:
             icon: toggle-right
@@ -248,6 +248,12 @@ menu:
           url: https://x.com/nsplnpbjy
           params:
               icon: brand-twitter
+
+        - identifier: email
+          name: Email
+          url: mailto:your-email@example.com
+          params:
+              icon: messages
 
 related:
     includeNewer: true
