@@ -284,6 +284,7 @@ markup:
         renderer:
             ## Set to true if you have HTML content inside Markdown
             unsafe: true
+            hardWraps: true   # 启用自动换行
     tableOfContents:
         endLevel: 4
         ordered: true
