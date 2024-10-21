@@ -104,7 +104,7 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL: https://nsplnpbjy.vercel.app/
+            serverURL: https://nsplnpbjy.vercel.app
             lang: zh-Cn
             pageview:
             emoji:
@@ -115,7 +115,7 @@ params:
                 - url
             locale:
                 admin: Admin
-                placeholder:
+                placeholder: none
 
         twikoo:
             envId:
