@@ -1,12 +1,17 @@
 ---
-date : 2024-10-20T00:40:48+08:00
-draft : false
-title : 静态网站部署
-image : https://picsum.photos/800/600.webp?random={{ substr (md5 (.Date)) 4 8 }}
-description : 以往我们在部署自己的网站，例如博客一类网站的时候，通常还需要部署一个服务器，用来运行后端服务和数据库，如果我们仅仅是需要做一个博客这种与后端交互比较少的网站，这会非常浪费钱。
+title: "使用hugo+githubpages部署个人博客"
+description: 以往我们在部署自己的网站，例如博客一类网站的时候，通常还需要部署一个服务器，用来运行后端服务和数据库，如果我们仅仅是需要做一个博客这种与后端交互比较少的网站，这会非常浪费钱。
+date: 2024-10-23T23:13:55+08:00
+image: https://picsum.photos/800/600.webp?random=83b871a5
+math: 
+license: 
+hidden: false
+comments: true
+draft: false
 toc : true
-tags : ["网站"]
-categories : ["hugo"]
+lastmod : 2024-10-23T23:13:55+08:00
+tags: ["hugo","博客"]
+categories: ["hugo"]
 ---
 
 - [什么是hugo？](#什么是hugo)
