@@ -1,17 +1,17 @@
 ---
-title: "使用golang+wails来建构你的应用"
+title: "使用golang+wails来建构你的应用1"
 description: 
-date: 2024-10-23T16:20:39+08:00
-image: https://picsum.photos/800/600.webp?random=8e8de125
+date: 2024-10-23T17:06:24+08:00
+image: https://picsum.photos/800/600.webp?random=56e77bfd
 math: 
 license: 
 hidden: false
 comments: true
 draft: false
 toc : true
-lastmod : 2024-10-23
+lastmod : 2024-10-23T17:06:24+08:00
 tags: ["桌面应用"]
-categories: ["wails",""go""]
+categories: ["wails","go","react"]
 ---
 
 # 什么是wails?
