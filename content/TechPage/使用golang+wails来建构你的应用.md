@@ -1,5 +1,5 @@
 ---
-title: "使用golang+wails来建构你的应用1"
+title: "使用golang+wails来建构你的应用"
 description: 
 date: 2024-10-23T17:06:24+08:00
 image: https://picsum.photos/800/600.webp?random=56e77bfd
