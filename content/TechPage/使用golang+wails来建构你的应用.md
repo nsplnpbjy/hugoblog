@@ -9,7 +9,7 @@ hidden: false
 comments: true
 draft: false
 toc : true
-lastmod ：2024-10-23
+lastmod : 2024-10-23
 tags: ["桌面应用"]
 categories: ["wails",""go""]
 ---
