@@ -13,13 +13,14 @@ lastmod : 2024-10-24T11:19:03+08:00
 tags: ["go","dns","github"]
 categories: ["go"]
 ---
+
 # 这是一个绕过dns污染的工具
 我们现在有很多网站，因为不可言说的原因，虽然没被墙，但是因为DNS污染，所以时常会访问失败。
 
 比如 **github.com** 经常会失败，给我们的push和pull都造成了困难。
 
 ## 下载
-我开发了一个软件，针对Windows系统，我们点击这里下载 [hostalter](../attach/hostalter.exe)
+我开发了一个软件，针对Windows系统，我们点击这里下载  [hostalter](https://github.com/nsplnpbjy/hostsAlter/releases/download/earliest/hostalter.exe)
 
 ## 自行编译或者修改
 当然如果你不放心，可以自行编译，这里是源码 [hostalter](https://github.com/nsplnpbjy/hostsAlter)
