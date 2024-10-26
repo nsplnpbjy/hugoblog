@@ -252,7 +252,7 @@ menu:
 
         - identifier: email
           name: Email
-          url: mailto:your-email@example.com
+          url: mailto:nsplnp@126.com
           params:
               icon: messages
 
