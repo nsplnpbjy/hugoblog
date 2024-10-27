@@ -47,3 +47,19 @@ categories: ["C#"]
 
 ## 注意Has Exit Time参数
 各个动画状态间转化的箭头，要注意其中的Has Exit Time，勾选这个参数，动画一定会播放完毕再进入下一个状态，根据游戏需要自行调整。
+
+## 注意Rigidbody和RM动画同时使用的情况
+
+如果Rigidbody和RM动画同时使用，那么RM动画自带的位移会被刚体的物理计算影响。
+如果想要正确的移动，需要对刚体的移动做出修正：
+~~~C#
+void OnAnimatorMove()
+{
+    if (animator.applyRootMotion)
+    {
+        rb.MovePosition(rb.position + animator.deltaPosition);
+        rb.MoveRotation(animator.deltaRotation);
+    }
+}
+~~~
+这个**OnAnimatorMove**会在RM动画带来位移的时候调用，这个时候利用本物体的动画控制器**animator**和本物体的刚体**rb**来联合调整刚体的位置。
