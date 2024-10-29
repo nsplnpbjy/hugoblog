@@ -73,3 +73,6 @@ animator.SetLookAtWeight(0);
 必须在Animator Controller的对应层中勾选IK Pass选项。
 
 IK的设置和控制需要在OnAnimatorIK事件方法中进行。
+
+## Unity官方示例
+[反向动力学官方示例](https://docs.unity3d.com/cn/2020.3/Manual/InverseKinematics.html)
